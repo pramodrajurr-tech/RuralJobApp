@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rural Job Operations</title>
+  
+  <link rel="stylesheet" href="styles.css">
+  
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            brand: '#16a34a',
+            'brand-dark': '#15803d',
+            'brand-yellow': '#eab308',
+          }
+        }
+      }
+    }
+  </script>
+  
+  <script src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+  <script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+  <script src="https://unpkg.com/react-dom@18/umd/react-dom-server.browser.production.min.js"></script>
+  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+</head>
+<body class="bg-gray-50 text-gray-800 antialiased selection:bg-brand selection:text-white">
+  
+  <div id="root"></div>
+
+  <script src="app.jsx" type="text/babel"></script>
+
+</body>
+</html>
