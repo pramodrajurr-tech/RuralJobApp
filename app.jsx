@@ -30,7 +30,7 @@ const Navbar = ({ currentUser, onLoginClick, onLogout }) => {
         <div className="flex items-center gap-4">
           {!currentUser ? (
             <button onClick={onLoginClick} className="bg-brand hover:bg-brand-dark text-white px-6 py-2 rounded-full font-bold transition-all shadow-lg hover:scale-105">
-              Login / Join
+              Login / Register
             </button>
           ) : (
             <div className="flex items-center gap-4">
